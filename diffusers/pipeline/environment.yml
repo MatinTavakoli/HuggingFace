@@ -1,0 +1,19 @@
+name: hf-diffusers
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - torchaudio
+  # - pytorch-cuda=12.1  # Remove if using CPU
+  - numpy
+  - pip
+  - pip:
+      - diffusers
+      - transformers
+      - accelerate
+      - datasets
