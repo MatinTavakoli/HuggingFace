@@ -1,0 +1,4 @@
+/var/spool/slurmd/job14784446/slurm_script: line 12: activate: No such file or directory
+import-im6.q16: unable to open X server `' @ error/import.c/ImportImageCommand/358.
+/var/spool/slurmd/job14784446/slurm_script: line 16: syntax error near unexpected token `"CUDA available:",'
+/var/spool/slurmd/job14784446/slurm_script: line 16: `print("CUDA available:", torch.cuda.is_available())'
